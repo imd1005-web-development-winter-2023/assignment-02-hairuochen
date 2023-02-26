@@ -226,3 +226,8 @@ footer {
   min-height: 100%;
   object-fit: cover;
 }
+
+.hostingimage img {
+   min-height: 100%;
+  object-fit: cover;
+}
