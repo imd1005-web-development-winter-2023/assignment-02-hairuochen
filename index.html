@@ -2,7 +2,9 @@
 <html lang="en-ca">
   <head>
     <!-- Set the page title -->
-    <title>Assignment 02</title>
+    <title>ETOILE</title>
+    <link rel="icon" type="image/x-icon" src="img/favicon2.png">
+    <!-- I tried to add a favicon to the website but it didn't work ): -->
 
     <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
@@ -19,11 +21,177 @@
     <!-- This is where all of our awesome CSS code goes -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!--
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <header>
 
-    -->
+      <nav>
+
+        <div class="logo">
+          <img src="img/logo.png" alt="ETOILE logo">
+        </div>
+
+        <ul>
+          
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          
+          <li>
+            <a href="#">SHOP</a>
+          </li>
+
+          <li>
+            <a href="#">MENU</a>
+          </li>
+
+          <li>
+            <a href="#">EVENTS</a>
+          </li>
+
+          <li>
+            <a href="#">INFO</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+
+    <main>
+
+      <section class="hero">
+
+        <div class="heroimage">
+          <img src="img/hero.jpeg" alt="designer interior">          
+        </div>
+
+        <div class="herotext">
+          <h3>FALL IN LOVE WITH THE MOMENT</h3>
+          <p>boutique, café, music venue, nightclub... anything you want it to be, packaged into one</p>
+        </div>
+
+        <div class="herobutton" href="#">
+          <button type="button">discover upcoming events</button>
+        </div>
+
+      </section>
+
+      <section class="description">
+        <div class="descriptionimage">
+          <img src="img/interior.png" alt="designer interior">
+        </div>
+
+        <div class="descriptiontext">
+          <h3> WE ARE A SOCIAL CLUB BOUTIQUE LOCATED IN THE HEART OF OTTAWA</h3>
+          <p> with a mission to offer <strong>the best curation of independant brands</strong> in ottawa as well as <strong>the most delicious menu</strong> you have ever tasted. <strong>ETOILE</strong> stands out for the <strong>quality</strong> of its collection and its down-to-earth approach. collaborating with talented artists, the store also serves as a <strong>multidisciplinary space</strong> for ephemeral artistic projects of all kinds. </p>
+
+          <button class="browse" type="button" href="#">browse latest lookbook</button>
+        </div>
+      </section>
+
+      <section class="socialmedia">
+
+        <h4>follow us on instagram to stay updated <i>@etoile.ott</i></h4>
+
+        <div class="instagram">
+          <img src="img/food.png" alt="Display of food on concrete tableware" width="300" height="300">
+          <img src="img/bar.png" alt="ETOILE bar counter" width="300" height="300">
+          <img src="img/Seating.png" alt="Dining area" width="300" height="300">
+          <img src="img/art.png" alt="Example of art installation at ETOILE" width="300" height="300">
+        </div>
+      </section>
+
+      <section class="hosting">
+
+        <div class="hostingimage">
+          <img src="img/space.jpg" alt="Concrete interior of ETOILE">
+        </div>
+
+        <div class="hostingtext">
+
+          <h3> INTERESTED IN HOSTING AN EVENT AT ETOILE?</h3>
+          <p>send us an inquiry by filling out the form below</p>
+          <form>
+
+            <label for="fname"><strong>first name:</strong></label>
+            <textarea id="fname" rows="1" style="background-color: #FB4D0E; border: none; border-bottom: 2px solid #171712; margin-right: 20px;"></textarea>
+          
+            <label for="lname"><strong>last name:</strong></label>
+            <textarea id="lname" rows="1" style="background-color: #FB4D0E; border: none; border-bottom: 2px solid #171712; margin-right: 20px;"></textarea>
+
+            <div class="inputs">
+              <label for="guest"><strong>number of guests:</strong></label>
+              <input id="guest" name="guest" type="number">
+            </div>
+
+            <div class="inputs">
+              <label fir="date"><strong>date:</strong></label>
+              <input id="date" name="date" type="date" style="margin-bottom:20px;">
+            </div>
+
+            <fieldset>
+              <legend><strong>type of event:</strong></legend>
+
+              <input type="radio" id="music" name="event-type"/>
+              <label for="music">music show</label>
+
+              <input type="radio" id="retail" name="event-type"/>
+              <label for="retail">retail</label>
+
+              <input type="radio" id="party" name="event-type"/>
+              <label for="party">party</label>
+
+              <input type="radio" id="business" name="event-type"/>
+              <label for="business">business</label>
+
+              <input type="radio" id="student" name="event-type"/>
+              <label for="student">student</label>
+            
+              <input type="radio" id="wedding" name="event-type"/>
+              <label for="wedding">wedding reception</label>
+
+              <input type="radio" id="exhibit" name="event-type"/>
+              <label for="exhibit">art exhibit</label>
+            
+              <input type="radio" id="other" name="event-type"/>
+              <label for="other">other</label>
+            </fieldset>
+
+            <div style="padding:10px"> 
+              <label for="description"><strong>description:</strong></label> 
+            </div>
+            <textarea id="description" rows="5" style="background-color: #EAEAEC; border: none; width: 400px;"></textarea>
+
+            <div class="submitbutton">
+              <button type="submit">submit</button>
+            </div>
+
+          </form>
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+
+      <div class="footerlogo">
+        <img src="img/footerlogo.png" alt="ETOILE logo" height="50">
+      </div>
+
+      <div class="icons">
+        <img src="img/instagram-4.png" alt="Instagram" href="#">
+        <img src="img/youtube-4.png" alt="YouTube" href="#">
+        <img src="img/tik-tok.png" alt="TikTok" href="#">
+      </div>
+
+      <p><i>© 2023 ETOILE</i></p>
+
+    </footer>
+
   </body>
+
 </html>
