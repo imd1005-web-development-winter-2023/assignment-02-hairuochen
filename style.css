@@ -1,3 +1,223 @@
 /*
   CSS File
 */
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #FB4D0E;
+  flex-wrap:wrap;
+  flex-direction: column;
+  padding: 250px 120px 100px 120px;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 1000;
+}
+
+main{
+  background-color: #FB4D0E;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+  align-content: end;
+
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+li{
+  padding: 0 15px;
+  list-style: none;
+  font-size: x-large;
+
+}
+
+h3 {
+  font-size: 50px;
+}
+
+:any-link{
+  color: #171712;  
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 0px 120px;
+}
+
+:any-link:hover{
+  color: #EAEAEC;
+  font-weight: 1500;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color:#FB4D0E;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 0px 120px;
+  position: relative;
+  text-align: center;
+  text-justify: distribute;
+  color: #FB4D0E;
+}
+
+.herotext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.herobutton {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
+.description{
+  display: flex;
+  flex-direction: row;
+  margin: 100px 120px;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.descriptiontext{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 25px;
+  text-align: start;
+}
+
+.descriptionimage{
+  border: 25px solid #171712;
+}
+
+.browse {
+  margin-top: 25px;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 120px;
+  background-color: #171712;
+  color:#EAEAEC;
+  text-align: end;
+  gap: 20px;
+}
+
+.instagram{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.inputs{
+  padding: 10px 0px;
+}
+
+.hosting {
+  padding: 100px 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.hostingimage {
+  border: 25px solid #171712;
+}
+
+.submitbutton {
+  padding-top: 20px;
+}
+
+fieldset {
+  border: 2px solid #171712;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+button:hover {
+  display: flex;
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 800px;
+  box-shadow: none;
+  box-sizing: inherit;
+  background-color:#EAEAEC;
+  color:#171712;
+  align-self: flex-end;
+  border: none;
+}
+
+button {
+  display: flex;
+  font-style: italic;
+  font-stretch: expanded;
+  font-weight: 800px;
+  box-shadow: none;
+  box-sizing: inherit;
+  color:#EAEAEC;
+  background-color:#171712;
+  align-self: flex-end;
+  border: none;
+}
+
+input[type=date]{
+  border: none;
+  border-bottom: 2px solid #171712;
+  background-color: #FB4D0E;
+  color: #171712;
+}
+
+input[type=number]{
+  border:none;
+  border-bottom:2px solid #171712;
+  background-color: #FB4D0E;
+  color: #171712;
+}
+
+input[type=radio]{
+  margin-left: 100px;
+}
+
+.heroimage {
+  border: 25px solid #171712;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  align-content: end;
+  justify-content: end;
+  gap: 20px;
+}
+
+footer {
+  background-color: #171712;
+  padding: 100px 120px;
+  color:#EAEAEC;
+  font-family: Arial, Helvetica, sans-serif;
+}
